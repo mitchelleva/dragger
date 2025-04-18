@@ -1,54 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Draggable Cards</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      max-width: 500px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    
-    .card-list {
-      list-style: none;
-      padding: 0;
-    }
-    
-    .card {
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      margin-bottom: 16px;
-      padding: 16px;
-      display: flex;
-      align-items: center;
-      cursor: grab;
-      user-select: none;
-    }
-    
-    .card:active {
-      cursor: grabbing;
-    }
-    
-    .card svg {
-      width: 32px;
-      height: 32px;
-      margin-right: 16px;
-    }
-    
-    .card-title {
-      font-weight: 500;
-      margin: 0;
-    }
-    
-    .dragging {
-      opacity: 0.5;
-    }
-  </style>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draggable Cards</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
 <body>
   <h1>Draggable Cards</h1>
   <p>Drag and drop to reorder the cards</p>
